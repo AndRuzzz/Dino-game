@@ -1,0 +1,28 @@
+#include <EEPROM.h>
+#include <time.h>
+#include <math.h>
+
+#define CONFIRM 1
+#define SWITCH_ARROW 13
+#define SWITCH_CHAR 13
+#define JUMP 2
+
+
+
+byte game_model1[8] = {B01110,
+                       B10111,
+                       B11110,
+                       B11111,
+                       B11000,
+                       B11111,
+                       B11010,
+                       B10010};
+
+byte game_model2[8] = {B00100,
+                       B00101,
+                       B10101,
+                       B10101,
+                       B10110,
+                       B01100,
+                       B00100,
+                       B00100};
